@@ -2,24 +2,24 @@
 #include <string>
 
 int main() {
-    std::string name;
-    double hourlyRate, hoursWorked, pay;
+  std::string name;
+  double hourlyRate, hoursWorked, pay;
 
-    // Get employee information
-    std::cout << "Enter employee name: ";
-    std::getline(std::cin, name);
+  // Get employee information
+  std::cout << "Enter employee name: ";
+  std::getline(std::cin, name);
 
-    std::cout << "Enter hourly rate: ";
-    std::cin >> hourlyRate;
+  std::cout << "Enter hourly rate: ";
+  std::cin >> hourlyRate;
 
-    std::cout << "Enter hours worked: ";
-    std::cin >> hoursWorked;
+  std::cout << "Enter hours ";
+  std::cin >> hoursWorked;
 
-    // Calculate pay
-    pay = hourlyRate * hoursWorked;
+  // Calculate pay
+  pay = hourlyRate * hoursWorked;
 
-    // Display payroll
-    std::cout << "Weekly payroll for " << name << ": $" << pay << std::endl;
+  // Display payroll
+  std::cout << "Weekly payroll for " << name << ": $" << pay << std::endl;
 
-    return 0;
+  return 0;
 }
